@@ -42,19 +42,21 @@ const App = (props) => {
           </br>
           <div  className= {styles.border}>
             <label>Password: </label>
-            <input type = "text" value = {password} onChange = { (e) => setPassword(e.target.value) } />  
+            <input type = "password" value = {password} onChange = { (e) => setPassword(e.target.value) } />  
           </div>
           <br>
           </br>
           <div className = {styles.border}>
             <label>Confirm Password: </label>
-            <input type = "text" value = {confirmPassword} onChange = { (e) => setconfirmPassword(e.target.value) } />  
+            <input type = "password" value = {confirmPassword} onChange = { (e) => setconfirmPassword(e.target.value) } />  
           </div>
           <br>
           </br>
           <input type= "submit" value = "Create User" />
       </form>
-  
+      
+   {/* MAKE PASSWORD * SYMBOLS
+    */}
     
     </div>
     <div className = "result">
