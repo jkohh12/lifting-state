@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import styles from './components/styles.module.css'
 
-const App = (props) => {
+const App = () => {
   const [username, setUsername] = useState("");
   const [usernameError, setUsernameError] = useState("");
   const [email, setEmail] = useState("");
@@ -207,3 +207,30 @@ const App = (props) => {
 }
 
 export default App;
+
+
+// const nums = [1, 2, 3, 4, 5];
+ 
+// function double(num) {
+//     return num * 2;
+// }
+ 
+// const newNums = nums.map( double );
+ 
+// console.log( newNums ); // logs [2, 4, 6, 8, 10]
+
+// import React from 'react';
+ 
+    
+// const Groceries = (props) => {
+//     // this could just as easily come from props
+//     const groceryList = ["pearl onions", "thyme", "cremini mushrooms", "butter"];
+//     return ( 
+//         <ul>
+//             { groceryList.map( (item, i) => 
+//                 <li key={ i }>{ item }</li> ) }
+//         </ul>
+//     ); 
+// }
+    
+// export default Groceries;
